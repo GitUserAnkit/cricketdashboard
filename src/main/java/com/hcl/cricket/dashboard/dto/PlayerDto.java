@@ -2,7 +2,7 @@ package com.hcl.cricket.dashboard.dto;
 
 import java.io.Serializable;
 
-public class PlayerDto implements Serializable{
+public class PlayerDto implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private Long playerId;
 	private String playerName;
@@ -105,7 +105,6 @@ public class PlayerDto implements Serializable{
 	public void setOdiWickets(Integer odiWickets) {
 		this.odiWickets = odiWickets;
 	}
-
 
 	public Integer getMatches() {
 		return matches;
